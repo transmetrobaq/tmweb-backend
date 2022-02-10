@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "Manual",
+  "info": {
+    "name": "Manual"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
